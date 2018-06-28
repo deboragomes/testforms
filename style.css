@@ -1,0 +1,99 @@
+*{
+	box-sizing: border-box;
+	margin:0;
+	padding: 0;
+}
+html{
+	background: linear-gradient(#D77584, #A24B61) no-repeat;
+	background-size: cover;
+}
+body{
+	width: 100%;
+	min-height:100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+main{
+	width: 60%;
+	height: 80vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color:#AFEEEE;
+	border-radius: 2% 2% 2% 2%;
+}
+.one_secao{
+	width: 40%;
+	height: 80vh;
+}
+.photo--principal{
+	height: 80vh;
+	width: 25vw;
+	border-radius: 2% 0 0 2%;
+}
+.two_secao{
+	background-color: #3B3E52;
+	height: 80vh;
+	width: 60%;
+	/*margin-top: 2%;*/
+	display: flex;
+	flex-direction: column;
+	border-radius: 0 2% 2% 0;
+	display: flex;
+	flex-direction: column;
+}
+.forms{
+	margin-top: 15%;
+	margin-left: 5%;
+	font-family: 'Pacifico', cursive;
+}
+.forms__login{
+	margin-bottom: 5%;
+	font-family: 'Pacifico', cursive;
+}
+.name--forms{
+	color: white;
+
+}
+
+input[type=text] {
+    background-color:#AFEEEE;
+    color: violet;
+    font-weight: bold;
+    font-size: 100%;
+    width: 100%;
+    padding: 10px 15px;
+    margin: 20px 0;
+    box-sizing: border-box;
+    border:0;
+}
+input[type=password]{
+    background-color:#AFEEEE;
+    color: violet;
+    font-weight: bold;
+    font-size: 100%;
+    width: 100%;
+    padding: 10px 15px;
+    margin: 20px 0;
+    box-sizing: border-box;
+    border:0;    
+}
+input::placeholder{
+	color:violet;
+}
+.botao{
+	   border-radius: 32px;
+	   width: 20%;
+	   height: 5vh;
+	   font-size: 100%;
+	   color:violet;
+	   font-weight: bold;
+	   background-color: #7FFFD4;
+	   border:0;
+	   box-shadow: 1px 1px 5px #00000033;
+	   margin-left: 70%;
+	   margin-top: 10%;
+	   text-transform: uppercase;
+	   transition: all 1s;
+}
